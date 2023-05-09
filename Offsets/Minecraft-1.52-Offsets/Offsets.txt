@@ -1,0 +1,84 @@
+Credits: MayhemModding and EternalModz
+
+#region Offsets
+
+        private class mcOfs
+        {
+            public static uint
+                 speedOfs = 0x0041BEF0,
+                 hostNameOfs = 0x0196588C,
+                 nameOfs = 0x3000b914,
+                 clearHudOfs = 0x3151A27C,
+                 forceFieldOfs = 0x00049118,
+                 bobbleOfs = 0x00A98DF4,
+                 promodOfs = 0x0170E65C,
+                 underwaterVisOfs = 0x0088AFC0,
+                 waterBlocksOfs = 0x00ACB500,
+
+                 gravityOfs = 0x0041BF10,
+                 gravityJumpOfs = 0x0041bf24,
+                 surfaceSwimOfs = 0x0041BE90,
+                 exitSwimOfs = 0x0041BE98,
+                 vertSwimOfs = 0x0041BEB0,
+
+                 crosshair = 0x112DC924,
+                 hotBar = 0x111FBF94,
+                 hotBarTxt = 0x11261304,
+                 allHud = 0x3004a3f4,
+
+                 xpOfs = 0x00504CE4,
+                 pickupOfs = 0x00344AA4,
+                 healthLvlOfs = 0x001278CC,
+                 infBlocksOfs = 0x00648908,
+                 infFood = 0x002E9CD0,
+                 infSeeds = 0x00572E70,
+                 infHunger = 0x002E85B8,
+                 fastBreak = 0x00B229F0,
+                 mobSpeed = 0x00279698,
+                 creeperExplo = 0x00204764,
+                 noFallDmg = 0x0170E570,
+
+                 instantBreak = 0x00B23C14,
+                 xRay = 0x00CCFA8C,
+                 lvlHack = 0x00AE6E80,
+                 invsBlocks = 0x00A9D9B4,
+                 nightVis = 0x003A1E84,
+                 whiteLines = 0x00D1F338,
+                 hideClouds = 0x00AE1668,
+                 hideStars = 0x00AE0448,
+                 debugMode = 0x00A72EB8,
+                 sliding = 0x0041BEE0,
+                 brightStars = 0x003A2B48,
+                 rain = 0x00A9C9B4,
+                 dusk = 0x003A1E84,
+                 blackHorizon = 0x00A96F74,
+                 horizon = 0x0170E5E0,
+                 zoom = 0x006D9FF8,
+                 charSize = 0x00CCF99C,
+                 crackColor = 0x00AE40F0,
+                 sunSettings = 0x00AE0448,
+                 skyColor = 0x004A1524,
+                 vision = 0x00CCB7F4,
+                 timeOfDay = 0x00221878,
+
+                 craftTxt = 0x31405291,
+                 craftSp = 0x314F9C8C,
+                 craftTxtSp = 0x314FAAAC,
+                 invSp = 0x314F825C,
+                 invTxtSp = 0x314F84AC,
+                 sqSp = 0x314b656c,
+                 smallWhiteSp = 0x314b67ac,
+                 smallWhiteTxt = 0x314AFD31,
+                 labelWhiteSp = 0x314B643C,
+                 labelWhiteTxt = 0x314B6DD1,
+                 panelSp = 0x314b630c,
+                 themeOfs = 0x313A5460,
+                 ctrlLockOfs = 0x0183616c,
+                 canUseOfs = 0x3000d228,
+                 craftOrInvTxtX = 0x10d6f2bc,
+
+                 buttonFixOfs = 0x000C4E6C,
+                 nearByOfs = 0x0182b198,
+                 buttonMonOfs = 0x3000d188;
+        }
+        #endregion

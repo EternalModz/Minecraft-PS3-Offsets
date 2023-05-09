@@ -1,0 +1,14 @@
+Source: https://consolecrunch.com/threads/minecraft-1-05-offsets-updated.5016/
+1.05 Offsets:
+Code:
+// God Mode
+0 004495FC 60000000
+0 0044998C 60000000
+0 004809CC 60000000
+// Infinite Food
+0 003D550C 60000000
+0 003D553C 60000000
+// Infinite Arrows
+0 003E9BA0 60000000
+// Unlimited Resources
+0 003FE534 60000000

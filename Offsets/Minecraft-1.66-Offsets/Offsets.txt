@@ -1,0 +1,55 @@
+Credits: MayhemModding and EternalModz
+
+0x004462F8 0 - ignore
+0x001ED6F0 tele glitch
+0x321B20 40 dmg
+0x32516C c3 breath
+
+0x302F2601 craft txt
+0x3247C00C craft text spaced
+0x31156A0C inv icon
+0x311575FC inv txt
+0x311595AC craft txt
+0x311589BC craft icon
+0x3114d54c panel
+0x3114d7ac icon
+
+0x311595AC txt
+3F C0 00 00 00 00 00 00 00 00 00 00 3F C0 00 00 C3 2F 00 00 C3 C8
+
+0x311589BC icon
+3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 42 B0 00 00 C3 C3
+
+bobbleOfs = 0x00B3151C ,
+upsideDown = 0x013E4E5C ,
+underwaterVisOfs = 0x0094ABD0 ,
+waterBlocksOfs = 0x00A0E458 ,
+exitSwimOfs = 0x0032BBD0 ,
+vertSwimOfs = 0x0032BBE8 ,
+swimSpeed = 0x0032BBD8 ,
+infPick =  0, // 0x001EA47F 0x009BE113 
+stars = 0x00342AF0 ,
+fov = 0x00BAAE28 ,
+xpOfs = 0x004201F4 ,
+healthLvlOfs =  0, // 0x0018084C 0x001808CC 
+mobSpeed = 0x001EFE78 ,
+creeperExplo =  0, // 0x00190B00 0x002E6080 0x00864850 
+creeperExploDmg =  0, // 0x0001F170 0x00201E88 
+knockBack = 0x003236A0 ,
+godMode =  0, // 0x00067A09 0x001FB3AD 0x004220E9 0x00525745 
+suffocateAll = 0x001F3AF8 ,
+throwDis = 0x00415960 ,
+autoJump = 0x00A3BE18 ,
+mineDis = 0x00A6CF70 ,
+playerDim = 0x00A10B8C ,
+instantBreak = 0x00A25A28 ,
+lvlHack = 0x00BBB330 ,
+nightVis = 0x003418E4 ,
+hideClouds = 0x00A5C7C8 ,
+sliding =  0, // 0x0027D180 0x0032CAF4 0x00A9184C 
+rain = 0x00B3B92C ,
+dusk = 0x003418E4 ,
+blackHorizon = 0x009D69E0 ,
+horizon = 0x013E4DE8 ,
+groundHack =  0, // 0x009D9E40 0x009DA598 
+vision =  0, // 0x003417A0 0x0096D464 0x009A9E38 0x009F94FC 0x00B16AE4 
