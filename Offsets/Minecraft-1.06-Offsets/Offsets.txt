@@ -1,0 +1,49 @@
+Source: https://nextgenupdate.com/forums/popular-classic-games/745978-minecraft-106-offsets-my-tool.html
+Minecraft 1.06 Offsets
+
+
+God Mode - 
+
+On - 
+
+0x44c42c { 0x60, 0, 0, 0 });
+0x44c7bc { 0x60, 0, 0, 0 });
+0x483804 { 0x60, 0, 0, 0 });
+
+Off - 
+
+0x44c42c { 0x93, 0xdf, 1, 0xe8 });
+0x44c7bc { 0x90, 0x7c, 1, 0xec });
+0x483804 { 0x90, 0x7d, 1, 0xe8 });
+
+Unlimited Resources - 
+
+On -
+
+0x3e9ba0 { 0x60, 0, 0, 0 });
+
+Off - 
+
+0x3e9ba0 { 0x00, 0, 0, 0 });
+
+Unimited Food - 
+
+On -  
+
+0x3d550c { 0x60, 0, 0, 0 });
+0x3d3e4c { 0x60, 0, 0, 0 });
+
+Off - 
+
+0x3d550c { 0xd0, 0x3e, 0, 4 });
+0x3d3e4c { 0xd0, 0x3e, 0, 4 });
+
+Unimited Arrows - 
+
+On - 
+
+0x400ff4 { 0x60, 0, 0, 0 });
+
+Off - 
+
+0x400ff4 { 0x90, 0x7d, 0, 12 });
