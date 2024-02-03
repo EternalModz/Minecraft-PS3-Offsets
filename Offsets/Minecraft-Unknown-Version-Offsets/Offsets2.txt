@@ -1,0 +1,16 @@
+Source: https://nextgenupdate.com/forums/popular-classic-games/837006-godmode-1.html
+Note: I believe this is for 1.16, it may be earlier though.
+
+God Mode -
+
+On -
+
+0x44c42c { 0x60, 0, 0, 0 });
+0x44c7bc { 0x60, 0, 0, 0 });
+0x483804 { 0x60, 0, 0, 0 });
+
+Off -
+
+0x44c42c { 0x93, 0xdf, 1, 0xe8 });
+0x44c7bc { 0x90, 0x7c, 1, 0xec });
+0x483804 { 0x90, 0x7d, 1, 0xe8 });

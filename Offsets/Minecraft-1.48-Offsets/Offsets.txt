@@ -1,0 +1,20 @@
+Credits: NELUxP
+Source: https://nextgenupdate.com/forums/popular-classic-games/948965-minecraft-offsets-148a-1.html
+
+Crosshair Size
+0 10337A44 3F800000
+0 10337A48 3F800000
+0 10337A7C 3F800000
+
+Clear & FOV Weather
+0x1023BE80 3F800000
+0x1023BE94 3F800000
+0x1023BEA8 3F800000
+0x1023BEBC 3F800000
+0x1023BEC0 3F800000
+
+FOV Camera
+0x006C5090
+
+Light Sky
+0x0048EEC4

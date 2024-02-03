@@ -1,0 +1,30 @@
+Source: http://www.nextgenupdate.com/forums/minecraft-modding/963401-minecraft-1-64-offsets.html
+
+Instant Damage:
+
+On
+0x321B20
+bytes: 0x40, 0x00, 0x00, 0x00
+
+Off:
+0x321B20
+bytes: 0x3F, 0x00, 0x00, 0x00
+
+Name Changer:
+ byte[] bytes = Encoding.ASCII.GetBytes(this.textBox1.Text);
+            Array.Resize<byte>(ref bytes, bytes.Length + 1);
+            PS3.SetMemory(0x3000ABE4, bytes);
+            PS3.SetMemory(0x3000AC54, bytes);
+            PS3.SetMemory(0x3000ACC4, bytes);
+            PS3.SetMemory(0x3000AD34, bytes);
+            PS3.SetMemory(0x3000ABA4, bytes);
+
+No Damage:
+
+On
+0x321BC8
+bytes: 0x41, 0x82, 0x00, 0x78
+
+Off:
+0x321BC8
+bytes: 0x40, 0x82, 0x00, 0x78

@@ -1,0 +1,15 @@
+Credits: Rayz
+Source: http://www.nextgenupdate.com/forums/minecraft-modding/818232-minecraft-1-15-offsets.html
+
+Unlimited Blocks:
+Address = 0x005FFD78
+Enable = 0x60000000 - NOP - Removes the function to remove a block when you place one
+Disable = 0x90830000
+Unlimited food:
+Address = 0x004BC630
+Enable = 0x60000000 - NOP - Removes the function that takes your food when you eat
+Disable = 0x90830000
+64 items on crafting/pickup:
+Address = 0x004D42A0
+Enable = 0x30840040 - addic r4, r4, 0x40 - Adds 64 blocks, rather than just one
+Disable = 0x7C84E014

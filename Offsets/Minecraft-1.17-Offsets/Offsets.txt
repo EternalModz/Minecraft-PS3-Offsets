@@ -1,0 +1,11 @@
+Credits: JAKE_1496, NGU Community
+
+ PS3.Extension.WriteUInt32(0x579CB0, 0x30840040); //Enables 64 Blocks
+
+ PS3.Extension.WriteUInt32(0x579CB0, 0x7C84E014); //Disables 64 Blocks
+
+ PS3.Extension.WriteUInt32(0x3166E1F4, 0000000A); //(10 Hearts)
+
+ PS3.Extension.WriteUInt32(0x3166E1F4, 00000009 ); //(9 Hearts)
+
+ PS3.Extension.WriteUInt32(0x3166E1F4, 0000000Cool Man (aka Tustin); // (8 Hearts)

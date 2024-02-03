@@ -1,4 +1,5 @@
 Source: https://consolecrunch.com/threads/minecraft-offset-ranges-inventory-offset.1955/#post-589091
+
 Here are the offset ranges for Minecraft PS3. (This is where you need to search to find offsets)
 Code:
 00000000
